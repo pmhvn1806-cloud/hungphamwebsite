@@ -7,7 +7,6 @@ app = Flask(__name__)
 def home():
     teacher_name = "Thầy/Cô kính mến"
     default_message = "Chúc mừng Ngày Nhà giáo Việt Nam 20/11! Kính chúc Thầy/Cô luôn mạnh khỏe, hạnh phúc và thành công trong sự nghiệp trồng người!"
-    default_message = "chúc thầy/cô 8386!"
     message = default_message
     if request.method == "POST":
         message = request.form.get("message", default_message)
@@ -132,7 +131,7 @@ footer{{margin-top:16px;color:#6b6b6b}}
   </main>
 
   <footer>
-    <p>From: <strong>Bạn</strong> — <small>Ngày Nhà giáo Việt Nam 20/11</small></p>
+    <p>From: <strong>tập thể lớp </strong> — <small>Ngày Nhà giáo Việt Nam 20/11</small></p>
   </footer>
 </div>
 <div id="petal-root"></div>
@@ -178,4 +177,5 @@ footer{{margin-top:16px;color:#6b6b6b}}
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 

@@ -131,7 +131,7 @@ footer{{margin-top:16px;color:#6b6b6b}}
   </main>
 
   <footer>
-    <p>From: <strong>tập thể lớp </strong> — <small>Ngày Nhà giáo Việt Nam 20/11</small></p>
+    <p>From: <strong>tập thể lớp 11A6 </strong> — <small>Ngày Nhà giáo Việt Nam 20/11</small></p>
   </footer>
 </div>
 <div id="petal-root"></div>
@@ -177,5 +177,6 @@ footer{{margin-top:16px;color:#6b6b6b}}
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
